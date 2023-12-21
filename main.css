@@ -1,0 +1,83 @@
+@font-face {
+	font-family: CircularBlack;
+	src: url('assets/CircularStd-Black.ttf');
+}
+
+body {
+	margin: 0;
+	font-family: 'Arial';
+	font-family: 'CircularBlack', 'sans-serif';
+}
+
+h1 {
+	font-size: 60px;
+	color: #e60f17;
+	text-shadow: 2px 2px 4px #00000063;
+}
+
+.page__container {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	height: 120px;
+	width: 100vw;
+	padding: 32px;
+	box-sizing: border-box;
+}
+
+.logo {
+	height: 64px;
+}
+
+.game-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0;
+}
+
+.player-container {
+	height: 150px;
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background: #ffffff;
+	border-radius: 5px;
+	box-shadow: 4px 4px 16px #00000033;
+}
+
+.name {
+	font-size: 25px;
+	text-shadow: 1px 1px 4px #00000063;
+}
+
+#result-area {
+	width: 200px;
+	text-align: center;
+	color: #000000;
+	text-shadow: 1px 1px 4px #00000063;
+}
+
+#play-btn {
+	font-size: 25px;
+	padding: 15px 50px;
+	background: #e60f17;
+	color: #ffffff;
+	border-radius: 5px;
+	box-shadow: -5px 5px 10px #00000033;
+	cursor: pointer;
+}
+
+#play-btn:hover {
+	background: #f82414;
+}
